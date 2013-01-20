@@ -1,0 +1,150 @@
+#result_list thead th.filtered {
+    background-repeat: no-repeat !important;
+}
+
+a.col-filtered {
+    float: left;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("../img/funnel_del.png");
+    background-position: right 1px;
+    background-repeat: no-repeat;
+    margin-right: 2px;
+    margin-left: 2px;
+    width: 16px;
+    height: 16px;
+}
+
+.w200 {
+    min-width: 200px;
+}
+
+.w300 {
+    min-width: 300px;
+}
+
+.elastic {
+
+}
+
+td.iadmin-cell-filter {
+}
+
+.iadmin-cell-menu-container {
+    float: left;
+    position: relative;
+}
+
+.iadmin-cell-menu-button {
+    background-image: url("../img/cell_menu.png");
+    background-repeat: no-repeat;
+    width: 8px;
+    cursor: pointer;
+    height: 8px;
+    margin-right: 5px;
+    display: block;
+}
+
+ul.iadmin-cell-menu {
+    display: none;
+    background-color: #FFFFFF;
+    position: absolute;
+    z-index: 1100;
+    width: 118px;
+    left: -10px;
+    float: left;
+    padding: 0px;
+    -moz-box-shadow: 5px 5px 5px #ccc;
+    -webkit-box-shadow: 5px 5px 5px #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+    border: 1px solid gray;
+}
+
+li.iadmin-cell-menu-item {
+    list-style-type: none;
+    padding: 3px;
+}
+
+li.iadmin-cell-menu-item:hover {
+    background-color: #f0f0f0;
+    color: #000000;
+}
+
+.shadow {
+    -moz-box-shadow: 5px 5px 5px #ccc;
+    -webkit-box-shadow: 5px 5px 5px #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+#changelist-filter-button {
+    background: url("../img/changelist-filter-button-bg.jpg") no-repeat scroll 0 0 transparent;
+    border-left: 1px solid #DDDDDD;
+    display: block;
+    height: auto;
+    line-height: 30px;
+    margin: 0;
+    padding-left: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 150px;
+    z-index: 2000;
+}
+
+#changelist-filter {
+    top: 30px;
+    min-height: 500px;
+}
+
+div#sitemap {
+    margin: 0;
+    padding: 0 0 5px;
+}
+
+.change-list .filtered .results, .change-list .filtered .paginator, .filtered #toolbar, .filtered div.xfull {
+    margin-right: 0px !important;
+    width: auto !important;
+}
+
+.change-list .filtered {
+    background: white !important;
+}
+
+.filtered .actions {
+    border-right: 1px solid #DDDDDD;
+    margin-right: 0px !important;
+}
+
+.toplinks {
+    height: 30px;
+}
+#aa{
+    position: relative;
+    float: right;
+    width:100%;
+}
+#changelist-col-button {
+    float: right;
+    cursor: pointer;
+}
+
+#changelist-cols-layout {
+    background: none repeat scroll 0 0 #EFEFEF;
+    border-left: 1px solid #DDDDDD;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    min-height: 200px;
+    top: 20px;
+    width: 160px;
+    z-index: 2000;
+    padding: 5px;
+}
+
+#changelist-cols-layout .col-item {
+    padding: 3px
+}
+
+#changelist-cols-layout .col-item a {
+    padding-left: 5px
+}
